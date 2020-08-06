@@ -64,15 +64,18 @@ function createMouseTrail(numT,spdT,conT,msOfX,msOfY,tOffX,tOffY,elAs,isFix,trSt
 		document.write('<style type="text/css"><!--\n.trailStyle { '+trSty+' }\n--></style>'); trSty = 'class="trailStyle"';
 	} else { trSty = 'style="position:absolute;left:0px;top:0px;'+trSty+'"'; }
 	if( numT < 1 ) { numTrails = conT.length; window.isNoLen = conT; } else { numTrails = numT; }
+
 	for( var x = 0; x < numTrails; x++ ) {
 		trlSpeedX[x] = 0; trlSpeedY[x] = 0;
 		if( window.isNoLen ) { if( typeof( window.isNoLen ) != 'string' ) { conT = window.isNoLen[x]; } else { conT = window.isNoLen.charAt( x ); } } //split layers
 		if( document.layers ) { //releave NS4 bug
+
 			document.write('<layer id="msTrlDiv'+x+'" left="0" top="0" '+trSty+'>'+conT+'</layer>');
 		} else {
 			document.write('<div '+trSty+' id="msTrlDiv'+x+'">'+conT+'</div>');
 		}
 	}
+
 	if(document.captureEvents) { if(Event.MOUSEMOVE) { document.captureEvents(Event.MOUSEMOVE); } }
 	document.onmousemove = msIsMv;
 	setUpIntr = window.setInterval('setUpInit();',100);
@@ -81,10 +84,10 @@ function createMouseTrail(numT,spdT,conT,msOfX,msOfY,tOffX,tOffY,elAs,isFix,trSt
 createMouseTrail(
     0,
     50,
-    "Now that's a good idea!",
+    ['<img src="images/ca_1.png" alt="">','<img src="images/ca_2.png" alt="">','<img src="images/ca_3.png" alt="">','<img src="images/ca_4.png" alt="">','<img src="images/ca_5.png" alt="">','<img src="images/ca_6.png" alt="">','<img src="images/ca_7.png" alt="">','<img src="images/ca_8.png" alt="">','<img src="images/ca_9.png" alt="">','<img src="images/ca_10.png" alt="">','<img src="images/ca_11.png" alt="">','<img src="images/ca_12.png" alt="">','<img src="images/ca_13.png" alt="">','<img src="images/ca_14.png" alt="">','<img src="images/ca_15.png" alt="">','<img src="images/ca_16.png" alt="">','<img src="images/ca_17.png" alt="">','<img src="images/ca_18.png" alt="">','<img src="images/ca_19.png" alt="">','<img src="images/ca_20.png" alt="">',],
     20,
     0,
-    11,
+    15,
     0,
     0,
     true,
