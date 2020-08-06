@@ -83,11 +83,14 @@ function createMouseTrail(numT,spdT,conT,msOfX,msOfY,tOffX,tOffY,elAs,isFix,trSt
 
 createMouseTrail(
     0,
-    50,
-    ['<img src="images/ca_1.png" alt="">','<img src="images/ca_2.png" alt="">','<img src="images/ca_3.png" alt="">','<img src="images/ca_4.png" alt="">','<img src="images/ca_5.png" alt="">','<img src="images/ca_6.png" alt="">','<img src="images/ca_7.png" alt="">','<img src="images/ca_8.png" alt="">','<img src="images/ca_9.png" alt="">','<img src="images/ca_10.png" alt="">','<img src="images/ca_11.png" alt="">','<img src="images/ca_12.png" alt="">','<img src="images/ca_13.png" alt="">','<img src="images/ca_14.png" alt="">','<img src="images/ca_15.png" alt="">','<img src="images/ca_16.png" alt="">','<img src="images/ca_17.png" alt="">','<img src="images/ca_18.png" alt="">','<img src="images/ca_19.png" alt="">','<img src="images/ca_20.png" alt="">',],
-    20,
+	50,
+	//"Mow that's  good idea!",
+    //['<img src="images/ca_1.png" alt="">','<img src="images/ca_2.png" alt="">','<img src="images/ca_3.png" alt="">','<img src="images/ca_4.png" alt="">','<img src="images/ca_5.png" alt="">','<img src="images/ca_6.png" alt="">','<img src="images/ca_7.png" alt="">','<img src="images/ca_8.png" alt="">','<img src="images/ca_9.png" alt="">','<img src="images/ca_10.png" alt="">','<img src="images/ca_11.png" alt="">','<img src="images/ca_12.png" alt="">','<img src="images/ca_13.png" alt="">','<img src="images/ca_14.png" alt="">','<img src="images/ca_15.png" alt="">','<img src="images/ca_16.png" alt="">','<img src="images/ca_17.png" alt="">','<img src="images/ca_18.png" alt="">','<img src="images/ca_19.png" alt="">','<img src="images/ca_20.png" alt="">',],
+	//['<img src="images/ac_1.png" alt="">','<img src="images/ac_3.png" alt="">','<img src="images/ac_5.png" alt="">','<img src="images/ac_7.png" alt="">','<img src="images/ac_9.png" alt="">','<img src="images/ac_11.png" alt="">','<img src="images/ac_13.png" alt="">','<img src="images/ac_15.png" alt="">','<img src="images/ac_17.png" alt="">','<img src="images/ac_19.png" alt="">',],
+	['<img src="images/aa_1.png" alt="">','<img src="images/aa_2.png" alt="">','<img src="images/aa_3.png" alt="">','<img src="images/aa_4.png" alt="">','<img src="images/aa_5.png" alt="">','<img src="images/aa_6.png" alt="">','<img src="images/aa_7.png" alt="">','<img src="images/aa_8.png" alt="">','<img src="images/aa_9.png" alt="">','<img src="images/aa_10.png" alt="">','<img src="images/aa_11.png" alt="">','<img src="images/aa_12.png" alt="">','<img src="images/aa_13.png" alt="">','<img src="images/aa_14.png" alt="">','<img src="images/aa_15.png" alt="">','<img src="images/aa_16.png" alt="">','<img src="images/aa_17.png" alt="">','<img src="images/aa_18.png" alt="">','<img src="images/aa_19.png" alt="">',],
+	20,
     0,
-    15,
+    16,
     0,
     0,
     true,

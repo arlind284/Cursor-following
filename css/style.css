@@ -7,3 +7,12 @@ body {
     overflow: hidden;
     font-family: Poppins;
 }
+div {
+    width: 17px;
+    animation: cssAnimation 0s 0.7s forwards;
+    visibility: hidden;
+}
+
+@keyframes cssAnimation {
+    to   { visibility: visible; }
+}
